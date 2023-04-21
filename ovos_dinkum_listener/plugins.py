@@ -19,6 +19,7 @@ import tempfile
 from queue import Queue
 from typing import Any, Dict
 
+from speech_recognition import Recognizer, AudioFile
 from ovos_backend_client.api import STTApi, BackendType
 from ovos_bus_client import MessageBusClient
 from ovos_plugin_manager.stt import OVOSSTTFactory

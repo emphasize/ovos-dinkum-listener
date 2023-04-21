@@ -73,7 +73,10 @@ setup(
     packages=['ovos_dinkum_listener'],
     package_data={'': package_files('ovos_dinkum_listener')},
     include_package_data=True,
-    install_requires=required('requirements.txt'),
+    install_requires=required('requirements/requirements.txt'),
+    extras_require={
+        'offline': required('requirements/offline.txt')
+    },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",

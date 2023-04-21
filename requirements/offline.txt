@@ -1,0 +1,2 @@
+timezonefinder
+SpeechRecognition~=3.8
